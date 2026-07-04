@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-06-29",
+    "learning": "OI walls can break after 3-4 tests in the same session. The 24,000 PE wall (21M OI) held at 9:35, 11:45, 12:15, then broke at 12:40. Repeated testing weakens the wall — each test going slightly lower is the tell.",
+    "context": "Called sideways (24000-24100). 24000 tested at 24005, 24018, 24013, then broke at 23987. Each bounce was weaker. Pattern: test→bounce 60pts, test→bounce 40pts, test→bounce 20pts, then break.",
+    "category": "oi_reading"
+  },
+  {
+    "date": "2026-06-29",
+    "learning": "Sideways range on pre-expiry day held for first 2.5 hours (9:15-11:45), then broke bearish. Morning ranges on expiry-eve days are NOT reliable for the full session — expect afternoon expansion.",
+    "context": "Range 24005-24120 held perfectly until 12:40 PM, then 24000 wall broke and spot accelerated to 23931. The morning range was correct but had a finite lifetime.",
+    "category": "direction"
+  },
+  {
+    "date": "2026-06-30",
+    "learning": "Slow grinding toward a strike with consecutive higher lows over 60+ min = breakout imminent. Don't wait for it to happen — the grind IS the warning signal. Exit proactively when you see 5+ bars of slow grind toward your position.",
+    "context": "Called bearish, spot was at 23880. Then slowly ground higher: 23880→23900→23916→23930→23943 over 60 min (higher lows each bar). Then gamma squeeze 23943→23998 in one bar. The grind pattern was the breakout signal — not the spike.",
+    "category": "pattern"
+  },
+  {
+    "date": "2026-06-30",
+    "learning": "Bearish call after gap-up rejection can be correct initially (first hour selloff) but wrong for the session if the gap-down doesn't sustain. A gap-up rejected that consolidates mid-range (not making lower lows) is shifting to bullish/sideways, not confirming bearish.",
+    "context": "Gap up 23978→24032 rejected, sold to 23852 (bearish confirmed). But then grind back to 23943-23998 range — bears couldn't break 23850 and bulls accumulated. The bearish direction was right for 1 hour, wrong for the day.",
+    "category": "direction"
+  },
+  {
+    "date": "2026-07-02",
+    "learning": "Gap-up opens with sustained higher highs for 30 min (no pullback) are bullish — but ALWAYS wait for the first pullback before calling direction. The 50-75% retracement of the first impulse comes within the first hour.",
+    "context": "NIFTY gapped 23988→24142. First 30 min made higher highs every bar. Then pulled back 75% (24159→24081). The bullish direction was correct but entry at 24142 would have faced 78pt adverse move. Wait for retrace.",
+    "category": "timing"
+  },
+  {
+    "date": "2026-07-03",
+    "learning": "Gap-up open=high with immediate selloff does NOT mean bearish for the day. It's just opening volatility. Today opened 24378, dumped to 24295, then ranged sideways for 4 hours before breaking down in the afternoon.",
+    "context": "Opening bar open=high (24378→24295). Could have called bearish. Instead waited, and market ranged sideways 24295-24378 for 4 hours. The initial selloff was NOT predictive of final direction — only of opening range.",
+    "category": "direction"
+  },
+  {
+    "date": "2026-07-03",
+    "learning": "Afternoon range expansion: when spot lingers at lower support for 30+ min making successive lower lows without a V-bounce (unlike morning tests), that's absorption before breakdown. Morning bounces are sharp; afternoon grinds signal exhaustion.",
+    "context": "Morning: spot touched 24312 at 10:05 and V-bounced to 24340 in 5 min. Afternoon: spot sat at 24327→24317→24311→24304 from 1:00-1:35 PM without any bounce. Then broke 24295 decisively at 1:40 PM. The difference: morning had sharp bounces, afternoon had weak grinds.",
+    "category": "pattern"
+  }
+]
