@@ -40,5 +40,23 @@
     "learning": "Afternoon range expansion: when spot lingers at lower support for 30+ min making successive lower lows without a V-bounce (unlike morning tests), that's absorption before breakdown. Morning bounces are sharp; afternoon grinds signal exhaustion.",
     "context": "Morning: spot touched 24312 at 10:05 and V-bounced to 24340 in 5 min. Afternoon: spot sat at 24327→24317→24311→24304 from 1:00-1:35 PM without any bounce. Then broke 24295 decisively at 1:40 PM. The difference: morning had sharp bounces, afternoon had weak grinds.",
     "category": "pattern"
+  },
+  {
+    "date": "2026-07-06",
+    "learning": "OI walls are not absolute caps in strong directional moves. When spot approaches and then breaches a major OI resistance level, it signals the start of a directional move, not a rejection. 24,400 CE had 16.7M OI but was breached at 10:40 IST and market pushed to 24,459.",
+    "context": "Called sideways (24,340-24,400) at 09:45 based on 16.7M CE OI wall at 24,400. Market broke 24,400 at 10:40 and pushed to 24,459 by 1:20 PM. The wall failed because the bullish momentum was stronger than the OI absorption capacity. OI walls work in rangebound markets, not trending ones.",
+    "category": "oi_reading"
+  },
+  {
+    "date": "2026-07-06",
+    "learning": "Gap-up with continuous higher lows from bar 1 is a bullish flag, not sideways consolidation. Don't confuse a bullish pause (staircase of higher lows) with a true range (equal highs and lows). Structure: 24,287→24,359→24,366 by 09:45 = bullish, not sideways.",
+    "context": "Opened at 24,311 (gap up), then made higher lows every bar: 24,287→24,359→24,366 by 09:45. Called it sideways because it consolidated around 24,376 for 7 bars. Wrong — it was a bullish flag. The higher lows were the tell. Market continued bullish to 24,459. A true sideways range has equal highs/lows, not a staircase.",
+    "category": "pattern"
+  },
+  {
+    "date": "2026-07-13",
+    "learning": "On gap-day recoveries after multi-hour rally, don't call sideways when price is still making HH/HL pattern. Slow grind up with consolidation pauses = bull trend continuation, not sideways range. A 'double top' that doesn't make lower lows is just a pause before breakout.",
+    "context": "Gap-down 24027, rallied to 24149 by 11:15. Called sideways (24100-24157) based on 'double top' at 24162 and consolidation. Wrong — market was in slow bull trend, broke out to 24260. The HH/HL structure (24000→24129→24157→24162) was the tell. No lower lows = not sideways. True sideways needs LH/LL reversal structure.",
+    "category": "pattern"
   }
 ]

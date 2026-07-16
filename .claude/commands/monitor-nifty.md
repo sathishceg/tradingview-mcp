@@ -21,7 +21,7 @@ Intraday NIFTY option selling monitor. Run on a 5-minute loop.
 Use sub-agents where appropriate to parallelize work.
 
 ### Step 1: Fetch Price Data
-- **Initial fetch**: Get last 100 candles on 5-min chart (to see previous session context)
+- **Initial fetch**: Get last 200 candles on 5-min chart (covers ~2.5 sessions — enough to see multi-day S/R zones)
 - **Subsequent fetches**: Get last 20 candles (enough for current session updates)
 
 ### Step 2: Price Action Analysis (NO INDICATORS)
@@ -35,7 +35,7 @@ From the candles, determine:
 ### Step 3: Option Chain Data
 Fetch the option chain:
 ```
-curl -s "http://localhost:8002/api/option-chain/nifty/chain?from_db=true&expiry_date=2026-07-07"
+curl -s "http://localhost:8002/api/option-chain/nifty/chain?from_db=true&expiry_date=2026-07-21"
 ```
 - Identify ATM strike from current spot price
 - Filter: ATM ± 10 strikes (21 strikes total) for analysis
@@ -55,6 +55,7 @@ Combine: trend + direction + patterns + support/resistance + OI structure
 - If not confident → recommend WAIT. Do not force a signal.
 - Do NOT flip bias frequently. A view should hold through the day unless a key structural level breaks (full 5-min candle close beyond it, not just a wick).
 - Prefer strikes with **delta < 0.37** or choose the optimal strike based on your analysis
+- **PRE-SIGNAL SELF-CHECK (mandatory before outputting any signal):** Before presenting a signal, pause and ask yourself: "Am I TRULY 95% confident? Are these the right levels to take this trade?"
 
 **Position structure (ALWAYS 2-leg):**
 
