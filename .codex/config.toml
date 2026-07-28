@@ -1,0 +1,3 @@
+[mcp_servers.tradingview-mcp]
+command = "node"
+args = ["/Users/sravichandran/Documents/stock_market/tradingview-mcp/src/server.js"]

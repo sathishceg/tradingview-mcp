@@ -58,5 +58,17 @@
     "learning": "On gap-day recoveries after multi-hour rally, don't call sideways when price is still making HH/HL pattern. Slow grind up with consolidation pauses = bull trend continuation, not sideways range. A 'double top' that doesn't make lower lows is just a pause before breakout.",
     "context": "Gap-down 24027, rallied to 24149 by 11:15. Called sideways (24100-24157) based on 'double top' at 24162 and consolidation. Wrong — market was in slow bull trend, broke out to 24260. The HH/HL structure (24000→24129→24157→24162) was the tell. No lower lows = not sideways. True sideways needs LH/LL reversal structure.",
     "category": "pattern"
+  },
+  {
+    "date": "2026-07-16",
+    "learning": "Lunch consolidation near the lower end of the morning range with declining highs through the session is a bearish flag, not sideways equilibrium. Position matters — consolidation at range lows + lower high pattern (24,186→24,163→24,149→24,128) = bearish continuation setup before afternoon breakdown.",
+    "context": "Called sideways (24,097-24,167) at 10:10 after 55-min range. Morning high 24,186 at 11:00, then lunch consolidation 24,110-24,163 (near lower range boundary 24,097). Misread as equilibrium. Actually a bearish flag — afternoon broke 24,097 support and accelerated to 24,052 (gap-fill completion). The tell: consolidation was at range lows (not mid-range), and each bounce made lower highs (24,186→24,163→24,149→24,128).",
+    "category": "pattern"
+  },
+  {
+    "date": "2026-07-16",
+    "learning": "Don't call sideways only 55 minutes into a gap-up session before the opening range is fully established. Gap-up days need 90+ minutes to confirm whether they'll reject (bearish), continue (bullish), or consolidate (sideways). The 55-min range confirmation was premature.",
+    "context": "Gap-up open 24,144 (prev close 24,073). Called sideways at 10:10 after 55-min range (24,097-24,167). The call was correct for 45 minutes but failed to anticipate (1) 10:45-11:00 bullish liquidity grab to 24,186, and (2) afternoon bearish breakdown to 24,052. Should have waited until at least 10:30-10:45 to allow the gap structure to fully develop before committing to a directional bias.",
+    "category": "timing"
   }
 ]
